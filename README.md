@@ -4,4 +4,5 @@ String manipulation through asm
 
 # To compile, simply:
 nasm -f elf64 -o string.asm
+
 ld -s -o string string.o
